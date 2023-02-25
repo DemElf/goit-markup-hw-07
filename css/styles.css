@@ -20,7 +20,7 @@ h1,h2,h3,h4,p {
     margin-top: 0;
     margin-bottom: 0;
 }
-ul {
+ul,ol {
     margin-top: 0;
     margin-bottom: 0;
     padding-left: 0;
@@ -70,6 +70,16 @@ button {
     height: 16px;
 }
 /* =========header-section========= */
+@media screen and (min-width: 1200px) {
+.page-header {
+    padding-bottom: 28px;
+}
+}
+@media screen and (min-width: 767px) {
+.page-header {
+    padding-bottom: 10px;
+}
+}
 .page-header {
     align-items: center;
     padding-top: 24px;
